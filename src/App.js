@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+// change test mode : $env:CI=$false (listening for changes) or $env:CI=$true (run once)
 
 function App() {
   return (
