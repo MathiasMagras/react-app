@@ -33,7 +33,7 @@ jobs:
           path: coverage
       - name: Upload Build Folder
         if: github.event_name == 'push'
-        uses: actions/upload-artifact@v1  # actions/download-artifact also exists
+        uses: actions/upload-artifact@v1  # actions/download-artifact also exists :)
         with:
           name: build
           path: build
