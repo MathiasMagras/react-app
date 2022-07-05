@@ -1,5 +1,4 @@
 name: CI
-# 48. 1:50
 on: 
   pull_request:
     branches: [develop, master]
